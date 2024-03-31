@@ -1,0 +1,22 @@
+.card {
+  padding: 32px;
+  border-radius: 20px;
+  background: linear-gradient(111.68deg, rgba(87, 97, 125, 0.2) 7.59%, rgba(255, 255, 255, 0.078) 102.04%);
+  color: #fff;
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 40px;
+}
+
+.unit {
+  background-image: linear-gradient(223.3deg, #a68efd 20.71%, #f4acf3 103.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}

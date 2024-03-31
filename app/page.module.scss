@@ -1,0 +1,31 @@
+.main {
+  min-height: calc(100% - 96px - 56px);
+  max-width: var(--width);
+  padding: 48px 24px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  gap: 32px;
+
+}
+
+.content {
+  flex: 1;
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #2a2d35;
+}
+
+.login {
+  flex: 1;
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #2a2d35;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

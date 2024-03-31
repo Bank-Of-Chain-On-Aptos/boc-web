@@ -1,0 +1,23 @@
+.inputBox {
+  position: relative;
+  flex: 1;
+  font-size: 16px;
+
+  input {
+    width: 100%;
+    padding: 12px 56px 12px 16px;
+    border-radius: 32px;
+    background-color: #313036;
+    outline: none;
+    text-align: right;
+  }
+}
+
+.max {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  color: var(--primary-color);
+  transform: translateY(-50%);
+  cursor: pointer;
+}

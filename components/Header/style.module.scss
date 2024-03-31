@@ -1,0 +1,12 @@
+.header {
+  height: 96px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  max-width: var(--width);
+  height: 100%;
+  padding: 0 24px;
+  margin: 0 auto;
+}

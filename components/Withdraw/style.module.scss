@@ -1,0 +1,40 @@
+.top {
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 20px 20px 0 0;
+  background-color: #1E1E1F;
+}
+
+.bottom {
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 0 0 20px 20px;
+  margin-top: 16px;
+  background-color: #1E1E1F;
+}
+
+.row {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 26px;
+}
+
+.token {
+  display: flex;
+  align-items: center;
+}
+
+.tokenImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.depositBtn {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 20px;
+}

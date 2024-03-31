@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  line-height: 1;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.colorful {
+    border-color: transparent;
+    background-image: linear-gradient(to right, #1F2023, #1F2023), linear-gradient(219.17deg, #94E3FF 24.63%, #FE3DCE 104.13%);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+
+    &:hover {
+      box-shadow: 0px 0px 20px #A68EFE;
+      background-image: linear-gradient(to right, #1F2023, #1F2023), linear-gradient(220.48deg, #FE3DCE 6.75%, #5B93E0 100%);
+    }
+  }
+
+  &.primary {
+    border-color: transparent;
+    background: linear-gradient(223.3deg, #A68EFD 20.71%, #F4ACF3 103.56%);
+  }
+}

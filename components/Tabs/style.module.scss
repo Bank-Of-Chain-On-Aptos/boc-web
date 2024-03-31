@@ -1,0 +1,18 @@
+.tab {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 6px;
+  text-align: left;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: #2a2d35;
+  }
+}
+
+.active {
+  background-color: #2a2d35;
+  color: var(--primary-color);
+}
